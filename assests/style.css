@@ -1,7 +1,31 @@
 :root {
   font-family: "Unna", serif;
 }
+body {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+/*nav bar */
+.custom-nav {
+  font-weight: bold;
+}
+.custom-ul {
+  line-height: 0.2em;
+}
+
 .hero-title {
   font-family: "Unna", serif;
-  font-size: 5em;
+  font-size: 7rem;
+  line-height: 1em;
+  font-weight: lighter;
+}
+.super-img {
+  display: inline-flex;
+  background: rgb(155 156 158);
+  border-radius: 50px 60px 60px 0px;
+  border: none;
+}
+.asp-img {
+  height: 1em;
 }
