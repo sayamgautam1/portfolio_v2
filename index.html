@@ -16,9 +16,16 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Unna&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap"
       rel="stylesheet"
     />
+
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Unna&display=swap"
+      rel="stylesheet"
+    /> -->
     <!--link css -->
     <link rel="stylesheet" href="./assests/style.css" />
   </head>
@@ -29,10 +36,12 @@
         <a class="navbar-brand">SAYAM GAUTAM</a>
         <ul class="navbar-nav custom-ul">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">HOME</a>
+            <a class="nav-link active" aria-current="page" href="#home">HOME</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">PROJECT</a>
+            <a class="nav-link active" aria-current="page" href="#project"
+              >PROJECT</a
+            >
           </li>
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#">CONTACT</a>
@@ -43,38 +52,80 @@
         </ul>
       </div>
     </nav>
-    <!--HERO ELEMENT-->
-    <div class="text-center">
-      <h1 class="display-5 hero-title">
-        ASPI
-        <span class="super-img">
-          <img src="./assests/images/fly-icon-15.jpeg" alt="" class="asp-img" />
-        </span>
-        RANT <br />
-        FRONT END <br />
-        DEVELOPER
-      </h1>
-    </div>
-    <!--divider element-->
-    <div class="b-example-divider"></div>
-    <!--about section-->
-    <div class="container col-xxl-8 px-4 py-5">
-      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-        <div class="col-10 col-sm-8 col-lg-6">
+    <!--about/home-->
+    <section id="home" class="home">
+      <!--HERO ELEMENT-->
+      <div class="text-center">
+        <h1 class="display-5 hero-title">
+          ASPI
+          <span class="super-img">
+            <img
+              src="./assests/images/fly-icon-15.jpeg"
+              alt=""
+              class="asp-img"
+            />
+          </span>
+          RANT <br />
+          FRONT END <br />
+          DEVELOPER
           <img
-            src="bootstrap-themes.png"
-            class="d-block mx-lg-auto img-fluid"
-            alt="Bootstrap Themes"
-            width="700"
-            height="500"
-            loading="lazy"
+            src="./assests/images/flower.jpeg"
+            alt="flower"
+            height="50px"
+            width="50px"
           />
-        </div>
-        <div class="col-lg-6">
-          <h1 class="display-5 fw-bold lh-1 mb-3">What do i do?</h1>
-          <p class="lead">yes</p>
+        </h1>
+      </div>
+      <!--divider element-->
+      <div class="b-example-divider"></div>
+      <!--about section-->
+      <div class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-10 col-sm-8 col-lg-4">
+            <img
+              src="./assests/images/about-image.png"
+              class="d-block mx-lg-auto img-fluid aboutme-img"
+              alt="Bootstrap Themes"
+              loading="lazy"
+            />
+          </div>
+          <div class="col-lg-8">
+            <h2 class="display-5 fw-bold lh-1 mb-3">WHAT DO I DO?</h2>
+            <p class="lead self-descp">
+              <span class="bold-text">Create fun projects </span> in my spare
+              time. <br /><span class="bold-text">Write quality code.</span>
+              <br />
+              <!-- Keep my functions small, focused, and easy to understand. <br /> -->
+              <span class="bold-text">Leave comments </span> as I create and
+              maintain code. <br />
+              <span class="bold-text">Document</span> every feature. <br />
+              <!-- Keep track of every bug. <br />Strictly -->
+              <span class="bold-text">Never stop learning</span>
+            </p>
+          </div>
         </div>
       </div>
-    </div>
+    </section>
+    <!--divider element-->
+    <div class="b-example-divider"></div>
+    <!--project section-->
+
+    <section id="project" class="project">
+      <div class="text-center">
+        <h1 class="display-5 project-title">SELECTED</h1>
+      </div>
+      <div class="d-flex px-4 justify-content-evenly project-subtitle">
+        <h3 class="page-no">02</h3>
+        <h3 class="display-5">
+          PROJECT
+          <img
+            src="./assests/images/flower.jpeg"
+            alt="flower"
+            height="50px"
+            width="50px"
+          />
+        </h3>
+      </div>
+    </section>
   </body>
 </html>

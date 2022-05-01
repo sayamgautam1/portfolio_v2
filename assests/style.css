@@ -1,24 +1,33 @@
 :root {
-  font-family: "Unna", serif;
+  --font-unna: "Unna", serif;
+  --font-cinzel: "'Cinzel Decorative', cursive;";
+}
+* {
+  box-sizing: border-box;
 }
 body {
   max-width: 1024px;
   margin: 0 auto;
 }
-
+.home {
+  min-height: 100vh;
+}
 /*nav bar */
 .custom-nav {
   font-weight: bold;
 }
 .custom-ul {
   line-height: 0.2em;
+  position: relative;
 }
 .custom-ul li a:hover::before {
   content: "➤ ";
+  left: -25%;
+  position: absolute;
 }
 
 .hero-title {
-  font-family: "Unna", serif;
+  font-family: var(--font-cinzel);
   font-size: 7rem;
   line-height: 1em;
   font-weight: lighter;
@@ -31,4 +40,38 @@ body {
 }
 .asp-img {
   height: 1em;
+}
+
+/*about section*/
+.self-descp {
+  text-transform: uppercase;
+}
+.bold-text {
+  font-weight: bold;
+}
+.aboutme-img {
+  width: 200px;
+  height: 200px;
+}
+/* project section*/
+.project {
+  min-height: 100vh;
+}
+.project-title {
+  font-family: var(--font-cinzel);
+  font-size: 7rem;
+  line-height: 1em;
+  font-weight: lighter;
+}
+
+.project-subtitle {
+  /* font-family: "Unna", serif; */
+  /* font-weight: lighter; */
+  font-size: 5rem;
+  align-items: baseline;
+}
+.page-no {
+  border: 1px solid rgb(232, 232, 232);
+  border-radius: 50%;
+  padding: 35px;
 }
