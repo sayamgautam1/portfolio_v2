@@ -13,6 +13,9 @@ body {
 .custom-ul {
   line-height: 0.2em;
 }
+.custom-ul li a:hover::before {
+  content: "➤ ";
+}
 
 .hero-title {
   font-family: "Unna", serif;
