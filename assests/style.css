@@ -3,6 +3,7 @@
 }
 * {
   box-sizing: border-box;
+  font-family: "Unna", serif;
 }
 body {
   max-width: 1024px;
@@ -104,6 +105,17 @@ body {
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
     rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
+.project-container-med {
+  background-color: #dde2ee;
+  opacity: 0.8;
+}
+.project-container-med:hover {
+  opacity: 1;
+  transform: scale(1.02, 1.02);
+  transition: all 0.5s linear;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
 .img-container {
   display: flex;
   justify-content: center;
@@ -116,4 +128,36 @@ body {
   object-fit: contain;
   /* position: absolute;
   top: 15px; */
+}
+
+.project-name {
+  margin-top: 1em;
+}
+
+.project-type {
+  margin-bottom: 1em;
+}
+.end-project {
+  display: flex;
+}
+/* .button-container {
+  order: 2;
+} */
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 75px;
+  /* border: 1px solid red; */
+}
+
+.button-more {
+  height: 150px;
+  width: 150px;
+  font-size: 1.6em;
+  font-weight: bold;
+
+  border-radius: 50%;
+  border: 1px solid rgb(232, 232, 232);
+  background: none;
 }
