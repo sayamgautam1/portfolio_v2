@@ -167,6 +167,29 @@ body {
 .contact {
   min-height: 100vh;
 }
+
+/* form section */
+.custom-form {
+  border: none;
+  border-bottom: 1px solid black;
+  border-radius: 0%;
+  margin-bottom: 10px;
+}
+.custom-textarea {
+  border: none;
+  border-bottom: 1px solid black;
+  border-radius: 0%;
+  margin-bottom: 10px;
+}
+.custom-btn-container {
+  display: flex;
+}
+.custom-btn {
+  padding: 10px;
+  border: 1px solid black;
+  box-shadow: 10px black;
+  margin: 0 auto;
+}
 @media screen and (max-width: 990px) {
   .end-project {
     flex-direction: column;
