@@ -161,3 +161,17 @@ body {
   border: 1px solid rgb(232, 232, 232);
   background: none;
 }
+
+/* CONTACT SECTION */
+
+.contact {
+  min-height: 100vh;
+}
+@media screen and (max-width: 990px) {
+  .end-project {
+    flex-direction: column;
+  }
+  .button-container {
+    order: 2;
+  }
+}
