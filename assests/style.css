@@ -8,6 +8,7 @@
 body {
   max-width: 1024px;
   margin: 0 auto;
+  overflow-wrap: break-word;
 }
 .home {
   min-height: 100vh;
@@ -53,7 +54,7 @@ body {
   font-weight: bold;
 }
 .aboutme-img {
-  transform: rotate(10deg);
+  /* transform: rotate(10deg); */
   width: 250px;
   height: 200px;
   border-radius: 50%;
@@ -175,6 +176,12 @@ body {
   color: black;
   font-weight: bolder;
 }
+.contact-img {
+  transform: rotate(18deg);
+  width: 250px;
+  height: 200px;
+  border-radius: 50%;
+}
 /* form section */
 .custom-form {
   border: none;
@@ -244,18 +251,37 @@ footer {
   color: black;
   font-weight: bolder;
 }
-.contact-img {
-  transform: rotate(18deg);
-  width: 250px;
-  height: 200px;
-  border-radius: 50%;
-}
 
 @media screen and (max-width: 990px) {
+  body {
+    margin: 0;
+  }
+  .hero-title {
+    font-family: var(--font-unna);
+    font-size: 5rem;
+    line-height: 1em;
+    font-weight: lighter;
+  }
+  .project-title {
+    font-family: var(--font-unna);
+    font-size: 5rem;
+    line-height: 1em;
+    font-weight: lighter;
+  }
   .end-project {
     flex-direction: column;
   }
   .button-container {
     order: 2;
+  }
+  .contact-img {
+    transform: rotate(0deg);
+    width: 250px;
+    height: 200px;
+    border-radius: 50%;
+  }
+  .contact-img-container {
+    margin: auto;
+    width: fit-content;
   }
 }
