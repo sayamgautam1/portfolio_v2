@@ -177,7 +177,7 @@ body {
   font-weight: bolder;
 }
 .contact-img {
-  transform: rotate(18deg);
+  /* transform: rotate(18deg); */
   width: 250px;
   height: 200px;
   border-radius: 50%;
