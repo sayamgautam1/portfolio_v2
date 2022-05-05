@@ -34,7 +34,7 @@ body {
 }
 .super-img {
   display: inline-flex;
-  background: rgb(155 156 158);
+  background: #aeafb1;
   border-radius: 50px 60px 60px 0px;
   border: none;
 }
@@ -167,7 +167,11 @@ body {
 .contact {
   min-height: 100vh;
 }
-
+.contact-para {
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+}
 /* form section */
 .custom-form {
   border: none;
@@ -184,12 +188,63 @@ body {
 .custom-btn-container {
   display: flex;
 }
+
 .custom-btn {
-  padding: 10px;
-  border: 1px solid black;
-  box-shadow: 10px black;
+  display: inline-block;
+  outline: 0;
+  text-align: center;
+  cursor: pointer;
+  padding: 17px 30px;
+  border: 0;
+  color: #fff;
+  font-size: 17.5px;
+  border: 2px solid transparent;
+  border-color: #000;
+  color: #000;
+  background: transparent;
+  font-weight: 800;
+  line-height: 30px;
+  transition: background, color 0.1s ease-in-out;
   margin: 0 auto;
 }
+.custom-btn:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+/*gfooter*/
+footer {
+  margin-top: 3em;
+  border-top: solid 5px #fafaf8;
+  padding-top: 1em;
+}
+.home-image {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 1.5em;
+  opacity: 0.5;
+}
+
+.home-image:hover {
+  opacity: 1;
+}
+.footer-nav {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 10px;
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+}
+.footer-nav:hover {
+  color: black;
+  font-weight: bolder;
+}
+/* .footer-nav i {
+  padding-right: 10px;
+} */
+
 @media screen and (max-width: 990px) {
   .end-project {
     flex-direction: column;
