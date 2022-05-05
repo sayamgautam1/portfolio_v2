@@ -53,8 +53,11 @@ body {
   font-weight: bold;
 }
 .aboutme-img {
-  width: 200px;
+  transform: rotate(10deg);
+  width: 250px;
   height: 200px;
+  border-radius: 50%;
+  background: #aeafb1;
 }
 /* project section*/
 .project {
@@ -184,6 +187,9 @@ body {
   border-bottom: 1px solid black;
   border-radius: 0%;
   margin-bottom: 10px;
+  background-color: transparent;
+  resize: none;
+  outline: none;
 }
 .custom-btn-container {
   display: flex;
@@ -229,9 +235,6 @@ footer {
   opacity: 1;
 }
 .footer-nav {
-  flex: 1;
-  display: flex;
-  justify-content: flex-end;
   padding-right: 10px;
   text-decoration: none;
   color: black;
@@ -241,9 +244,12 @@ footer {
   color: black;
   font-weight: bolder;
 }
-/* .footer-nav i {
-  padding-right: 10px;
-} */
+.contact-img {
+  transform: rotate(18deg);
+  width: 250px;
+  height: 200px;
+  border-radius: 50%;
+}
 
 @media screen and (max-width: 990px) {
   .end-project {
