@@ -13,6 +13,13 @@ body {
 .home {
   min-height: 100vh;
 }
+a {
+  text-decoration: none;
+  color: #000;
+}
+a:hover {
+  color: #000;
+}
 /*nav bar */
 .custom-nav {
   font-weight: bold;
