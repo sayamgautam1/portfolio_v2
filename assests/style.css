@@ -67,6 +67,18 @@ a:hover {
   border-radius: 50%;
   background: #aeafb1;
 }
+
+/* skill description */
+.skill-descp {
+  overflow-wrap: break-word;
+  margin: auto 150px;
+  padding: 10px;
+  text-transform: uppercase;
+  line-height: 1.8em;
+  letter-spacing: 0.1rem;
+  word-spacing: 0.5em;
+}
+
 /* project section*/
 .project {
   min-height: 100vh;
