@@ -201,6 +201,23 @@ a:hover {
   height: 200px;
   border-radius: 50%;
 }
+
+/* contact icons */
+
+.contact-icons {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 3em;
+}
+
+.icon {
+  opacity: 0.8;
+}
+
+.icon:hover {
+  opacity: 1;
+  transform: scale(1.02, 1.02);
+}
 /* form section */
 .custom-form {
   border: none;
