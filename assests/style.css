@@ -71,7 +71,8 @@ a:hover {
 /* skill description */
 .skill-descp {
   overflow-wrap: break-word;
-  margin: auto 150px;
+  width: 80%;
+  margin: auto;
   padding: 10px;
   text-transform: uppercase;
   line-height: 1.8em;
